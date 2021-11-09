@@ -98,9 +98,9 @@ async function run() {
       // console.log(newUser);
       if (req?.decodedUserEmail) {
         const query = { email: req?.decodedUserEmail };
-        const user = await usersCollection.findOne(query);
+        const admin = await usersCollection.findOne(query);
 
-        if (user.role === "admin") {
+        if (admin.role === "admin") {
           const filter = { email: newUser?.email };
           const updateDoc = { $set: { role: "admin" } };
           const users = await usersCollection.updateOne(filter, updateDoc);
