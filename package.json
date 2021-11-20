@@ -20,5 +20,13 @@
   },
   "keywords": [],
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImtiazMahmod/doctors-portal-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ImtiazMahmod/doctors-portal-server/issues"
+  },
+  "homepage": "https://github.com/ImtiazMahmod/doctors-portal-server#readme",
   "description": ""
 }
